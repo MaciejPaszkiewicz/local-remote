@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.left {
+    max-width: 50%;
+    background-color: rgb(57, 181, 219);
+    color: white;
+    padding: 30px;
+}
+
+h2 {
+    padding-bottom: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+form {
+    margin: 20px;
+    max-width: 370px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: rgb(93, 93, 196);
+    font-size: 26px;
+}
+
+.inputs {
+    margin-bottom: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inputs div {
+    flex-basis: 47%;
+}
+
+.your--email {
+    margin-bottom: 35px;
+    /* width: 100%; */
+}
+
+#email {
+    width: 365px;
+}
+
+.terms {
+    padding-right: 10px;
+    display: flex;
+}
+
+.checkbox {
+    margin-right: 15px;
+}
+
+.last {
+    font-weight: bold;
+}
+
+#name, #surname, #email, #password {
+    height: 30px;
+}
+
+button {
+    background-color: rgb(93, 93, 196);
+    color: white;
+    margin-top: 20px;
+    padding: 10px 30px 10px 30px;
+    border-radius: 6%;
+}
